@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A2B497725455A12009ADA99 /* gnuplotter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A2B497625455A12009ADA99 /* gnuplotter.cpp */; };
+		0A2B497B25457B5D009ADA99 /* dataFetch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A2B497925457B5D009ADA99 /* dataFetch.cpp */; };
+		0A2B49842547FF34009ADA99 /* marketDataProc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A2B49822547FF34009ADA99 /* marketDataProc.cpp */; };
 		0A3E55A8253D665E0065B1D2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A3E55A7253D665E0065B1D2 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +26,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0A2B497625455A12009ADA99 /* gnuplotter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = gnuplotter.cpp; sourceTree = "<group>"; };
+		0A2B497925457B5D009ADA99 /* dataFetch.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dataFetch.cpp; sourceTree = "<group>"; };
+		0A2B497A25457B5D009ADA99 /* dataFetch.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = dataFetch.hpp; sourceTree = "<group>"; };
+		0A2B49822547FF34009ADA99 /* marketDataProc.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = marketDataProc.cpp; sourceTree = "<group>"; };
+		0A2B49832547FF34009ADA99 /* marketDataProc.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = marketDataProc.hpp; sourceTree = "<group>"; };
 		0A3E55A4253D665E0065B1D2 /* MXBT */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MXBT; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A3E55A7253D665E0065B1D2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +66,11 @@
 			isa = PBXGroup;
 			children = (
 				0A3E55A7253D665E0065B1D2 /* main.cpp */,
+				0A2B497625455A12009ADA99 /* gnuplotter.cpp */,
+				0A2B497925457B5D009ADA99 /* dataFetch.cpp */,
+				0A2B497A25457B5D009ADA99 /* dataFetch.hpp */,
+				0A2B49822547FF34009ADA99 /* marketDataProc.cpp */,
+				0A2B49832547FF34009ADA99 /* marketDataProc.hpp */,
 			);
 			path = MXBT;
 			sourceTree = "<group>";
@@ -119,6 +132,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A3E55A8253D665E0065B1D2 /* main.cpp in Sources */,
+				0A2B49842547FF34009ADA99 /* marketDataProc.cpp in Sources */,
+				0A2B497B25457B5D009ADA99 /* dataFetch.cpp in Sources */,
+				0A2B497725455A12009ADA99 /* gnuplotter.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

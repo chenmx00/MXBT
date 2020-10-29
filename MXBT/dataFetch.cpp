@@ -41,4 +41,8 @@ dataFetch::dataFetch(char *symbol, long start_date, long end_date, char filename
         curl_easy_perform(curl);
         fclose(fp);
     }
-}
+    
+    market = MarketDataProc(filename, symbol);
+    curl_easy_cleanup(curl);
+    curl_global_cleanup();
+};

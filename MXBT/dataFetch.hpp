@@ -13,7 +13,7 @@
 
 class dataFetch {
 public: dataFetch(char *symbol, long start_date, long end_date, char filename[MAX_LENGTH], char cookie[MAX_LENGTH], char crumbFilename[MAX_LENGTH] );
-    MarketDataProc marketmovements;
+    MarketDataProc market;
 };
 
 

@@ -18,7 +18,7 @@
 #include <chrono>
 #include <cmath>
 
-
+size_t MAX_LENGTH = 5;
 using namespace std;
 
 size_t write(void *ptr, size_t size, size_t nmemb, FILE *stream){
@@ -45,6 +45,7 @@ dataFetch::dataFetch(char *symbol, long start_date, long end_date, char filename
         curl_easy_perform(curl);
         fclose(fp);
     }
+    
     
     market = MarketDataProc(filename, symbol);
     curl_easy_cleanup(curl);

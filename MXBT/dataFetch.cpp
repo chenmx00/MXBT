@@ -18,14 +18,13 @@
 #include <chrono>
 #include <cmath>
 
-size_t MAX_LENGTH = 5;
 using namespace std;
 
 size_t write(void *ptr, size_t size, size_t nmemb, FILE *stream){
     return fwrite(ptr, size, nmemb, stream);
 }
 
-const char* getCrumb(){
+const char* get
     
 }
 

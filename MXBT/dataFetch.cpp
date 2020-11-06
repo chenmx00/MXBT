@@ -27,7 +27,7 @@ size_t write(void *ptr, size_t size, size_t nmemb, FILE *stream){
 const char* get
     
 }
-//sss
+//sssfff
 
 dataFetch::dataFetch(char *symbol, long start_date, long end_date, char filename[MAX_LENGTH], char cookie[MAX_LENGTH], char crumbFilename[MAX_LENGTH]){
     auto interval = "one"; // unit: days
